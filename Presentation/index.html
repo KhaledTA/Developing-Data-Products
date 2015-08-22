@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coursera &quot;Developing Data Products&quot; Assignment</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Coursera &quot;Developing Data Products&quot; Assignment">
+  <meta name="author" content="KhaledTA">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Coursera &quot;Developing Data Products&quot; Assignment</h1>
+    <h2>Shiny App Description</h2>
+    <p>KhaledTA<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Description of my Shiny Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The purpose of this application is to allow the user explore the countries data for a given continent.</p>
+
+<ul>
+<li><p>The user selects the continent he/she wants to display.
+This can be one of the following:</p>
+
+<ul>
+<li>AS = ASIA, </li>
+<li>AF = AFRICA, </li>
+<li>EU = EUROPE, </li>
+<li>OC = OCEANIA, </li>
+<li>NA = NORTH AMERICA, </li>
+<li>SA = SOUTH AMERICA. </li>
+</ul></li>
+<li><p>An data grid is displayed for the selected continent code  </p></li>
+<li><p>The data display is paged and the user can navigate over the pages </p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>ui.R Code</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This is the user interface part of my shiny app:</p>
+
+<pre><code class="r">library(shiny)
+
+# Define UI for the application 
+shinyUI(fluidPage(
+  # Application title
+  titlePanel(&quot;Contries in a continent&quot;),
+
+  # Sidebar with controls to select the continent code to display
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(&quot;dataIndex&quot;, &quot;Select the continent code:&quot;, 
+                  c(&quot;AS&quot;,&quot;EU&quot;,&quot;AF&quot;,&quot;NA&quot;,&quot;SA&quot;,&quot;OC&quot;))),
+
+      # Show the coutries list
+    mainPanel(
+      h3(textOutput(&quot;dataIndex&quot;)),
+      dataTableOutput(&quot;countryContinents&quot;)
+    )
+  )
+))
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>server.R Code</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This is the server part of my shiny app:</p>
+
+<pre><code class="r">library(shiny)
+# Load the couties dataset
+countries &lt;- read.csv(&quot;Countries.csv&quot;, na.strings=c(&quot;&quot;))
+
+
+shinyServer(
+  function(input, output) {
+
+    # display the user choice
+    output$dataIndex &lt;- renderText({  
+      paste(&quot;You have selected:&quot;,input$dataIndex)
+    })  
+    # return the data subset related to the user choice
+    output$countryContinents &lt;- renderDataTable({  
+     countries[countries$ContinentCode == input$dataIndex , ] 
+     })  
+})
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Shiny app screenshot</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="shinyappscreenshot.png" alt=""></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Description of my Shiny Application'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='ui.R Code'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='server.R Code'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Shiny app screenshot'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

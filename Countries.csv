@@ -1,0 +1,196 @@
+Id,Name,Code,Capital,Province,Area,ContinentCode
+1044,Afghanistan,AFG,Kabul,Afghanistan,647500,AS
+1000,Albania,AL,Tirane,Albania,28750,EU
+1142,Algeria,DZ,Algiers,Algeria,2381740,AF
+1004,Andorra,AND,Andorra la Vella,Andorra,450,EU
+1150,Angola,ANG,Luanda,Luanda,1246700,AF
+1092,Antigua and Barbuda,AG,Saint Johns,Antigua and Barbuda,440,NA
+1130,Argentina,RA,Buenos Aires,Distrito Federal,2766890,SA
+1051,Armenia,ARM,Yerevan,Armenia,29800,AS
+1116,Australia,AUS,Canberra,Australia Capital Territory,7686850,OC
+1007,Austria,A,Vienna,Vienna,83850,EU
+1053,Azerbaijan,AZ,Baku,Azerbaijan,86600,AS
+1093,Bahamas,BS,Nassau,Bahamas,13940,NA
+1054,Bahrain,BRN,Manama,Bahrain,620,AS
+1055,Bangladesh,BD,Dhaka,Bangladesh,144000,AS
+1094,Barbados,BDS,Bridgetown,Barbados,430,NA
+1016,Belarus,BY,Minsk,Belarus,207600,EU
+1022,Belgium,B,Brussels,Brabant,30510,EU
+1095,Belize,BZ,Belmopan,Belize,22960,NA
+1155,Benin,BEN,Porto-Novo,Benin,112620,AF
+1058,Bhutan,BHT,Thimphu,Bhutan,47000,AS
+1131,Bolivia,BOL,La Paz,Bolivia,1098580,SA
+1025,Bosnia and Herzegovina,BIH,Sarajevo,Bosnia and Herzegovina,51233,EU
+1159,Botswana,RB,Gaborone,Botswana,600370,AF
+1132,Brazil,BR,Brasilia,Distrito Federal,8511965,SA
+1059,Brunei Darussalam,BRU,Bandar Seri Begawan,Brunei,5770,AS
+1027,Bulgaria,BG,Sofia,Bulgaria,110910,EU
+1156,Burkina Faso,BF,Ouagadougou,Burkina Faso,274200,AF
+1164,Burundi,BI,Bujumbura,Burundi,27830,AF
+1063,Cambodia,K,Phnom Penh,Cambodia,181040,AS
+1167,Cameroon,CAM,Yaounde,Centre,475440,AF
+1098,Canada,CDN,Ottawa,Ontario,9976140,NA
+1172,Cape Verde,CV,Praia,Cape Verde,4030,AF
+1168,Central African Republic,RCA,Bangui,Central African Republic,622980,AF
+1169,Chad,TCH,NDjamena,Chad,1284000,AF
+1133,Chile,RCH,Santiago,Chile,756950,SA
+1045,China,TJ,Beijing,Beijing (munic.),9596960,AS
+1111,Colombia,CO,Bogota,Santa Fe de Bogota. DC,1138910,SA
+1174,Comoros,COM,Moroni,Comoros,2170,AF
+1153,République démocratique du Congo,ZRE,Kinshasa,Kinshasa,2345410,AF
+1151,République du Congo,RCB,Brazzaville,Congo,342000,AF
+1100,Costa Rica,CR,San Jose,San Jose,51100,NA
+1162,Cote d'Ivoire,CI,Yamoussoukro,Cote dIvoire,322460,AF
+1026,Croatia,HR,Zagreb,Croatia,56538,EU
+1103,Cuba,C,Havana,Ciudad de la Habana,110860,NA
+1070,Cyprus,CY,Nicosia,Cyprus,9250,AS
+1008,Czech Republic,CZ,Prague,Praha,78703,EU
+1030,Denmark,DK,Copenhagen,Denmark,43070,EU
+1177,Djibouti,DJI,Djibouti,Djibouti,22000,AF
+1104,Dominica,WD,Roseau,Dominica,750,NA
+1105,Dominican Republic,DOM,Santo Domingo,Dominican Republic,48730,NA
+1141,Ecuador,EC,Quito,Ecuador,283560,SA
+1072,Egypt,ET,Cairo,El Qahira (munic.),1001450,AF
+1107,El Salvador,ES,San Salvador,El Salvador,21040,NA
+1170,Equatorial Guinea,GQ,Malabo,Equatorial Guinea,28050,AF
+1178,Eritrea,ER,Asmara,Eritrea,121320,AF
+1031,Estonia,EW,Tallinn,Estonia,45100,EU
+1179,Ethiopia,ETH,Addis Ababa,Ethiopia,1127127,AF
+1117,Fiji,FJI,Suva,Fiji,18270,OC
+1032,Finland,SF,Helsinki,Uusimaa,337030,EU
+1005,France,F,Paris,Ile de France,547030,EU
+1137,French Guiana,FGU,Cayenne,French Guiana,91000,SA
+1171,Gabon,G,Libreville,Gabon,267670,AF
+1182,Gambia,WAG,Banjul,Gambia,11300,AF
+1052,Georgia,GE,Tbilisi,Georgia,69700,AS
+1009,Germany,D,Berlin,Berlin,356910,EU
+1163,Ghana,GH,Accra,Ghana,238540,AF
+1001,Greece,GR,Athens,Greece,131940,EU
+1109,Grenada,WG,Saint Georges,Grenada,340,NA
+1096,Guatemala,GCA,Guatemala City,Guatemala,108890,NA
+1175,Guinea,RG,Conakry,Guinea,245860,AF
+1184,Guinea-Bissau,GNB,Bissau,Guinea-Bissau,36120,AF
+1138,Guyana,GUY,Georgetown,Guyana,214970,SA
+1106,Haiti,RH,Port-au-Prince,Haiti,27750,NA
+1036,Holy See (Vatican City State),V,Vatican City,Holy See,0,EU
+1108,Honduras,HCA,Tegucigalpa,Francisco Morazan,112090,NA
+1010,Hungary,H,Budapest,Budapest (munic.),93030,EU
+1037,Iceland,IS,Reykjavik,Iceland,103000,EU
+1057,India,IND,New Delhi,Delhi,3287590,AS
+1073,Indonesia,RI,Jakarta,Indonesia,1919440,AS
+1046,Iran,IR,Tehran,Tehran,1648000,AS
+1075,Iraq,IRQ,Baghdad,Baghdad,437072,AS
+1038,Ireland,IRL,Dublin,Ireland,70280,EU
+1071,Israel,IL,Jerusalem,Central,20770,AS
+1011,Italy,I,Rome,Lazio,301230,EU
+1110,Jamaica,JA,Kingston,Jamaica,10990,NA
+1081,Japan,J,Tokyo,Tokyo,377835,AS
+1076,Jordan,JOR,Amman,Jordan,89213,AS
+1065,Kazakhstan,KAZ,Almaty,Almaty (munic.),2717300,AS
+1181,Kenya,EAK,Nairobi,Nairobi,582650,AF
+1118,Kiribati,KIR,Tarawa,Kiribati,717,OC
+1066,North Korea,NOK,Pyongyang,North Korea,120540,AS
+1082,South Korea,ROK,Seoul,South Korea,98480,AS
+1077,Kuwait,KWT,Kuwait,Kuwait,17820,AS
+1067,Kyrgyzstan (Kyrgyz Republic),KGZ,Bishkek,Kyrgyzstan,198500,AS
+1061,Laos,LAO,Vientiane,Laos,236800,AS
+1017,Latvia,LV,Riga,Latvia,64100,EU
+1080,Lebanon,RL,Beirut,Lebanon,10400,AS
+1187,Lesotho,LS,Maseru,Lesotho,30350,AF
+1176,Liberia,LB,Monrovia,Liberia,111370,AF
+1143,Libya,LAR,Tripoli,Libya,1759540,AF
+1012,Liechtenstein,FL,Vaduz,Liechtenstein,160,EU
+1018,Lithuania,LT,Vilnius,Lithuania,65200,EU
+1023,Luxembourg,L,Luxembourg,Luxembourg,2586,EU
+1002,Macedonia,MK,Skopje,Macedonia,25333,EU
+1188,Madagascar,RM,Antananarivo,Antananarivo,587040,AF
+1189,Malawi,MW,Lilongwe,Malawi,118480,AF
+1060,Malaysia,MAL,Kuala Lumpur,Fed. Terr. of Kuala Lumpur,329750,AS
+1083,Maldives,MV,Male,Maldives,300,AS
+1144,Mali,RMM,Bamako,Mali,1240000,AF
+1040,Malta,M,Valletta,Malta,320,EU
+1119,Marshall Islands,MH,Majuro,Marshall Islands,181,OC
+1145,Mauritania,RIM,Nouakchott,Mauritania,1030700,AF
+1191,Mauritius,MS,Port Louis,Mauritius,1860,AF
+1097,Mexico,MEX,Mexico City,Distrito Federal,1972550,NA
+1120,Micronesia,FSM,Kolonia,Micronesia,702,OC
+1041,Moldova,MD,Chisinau,Moldova,33700,EU
+1035,Monaco,MC,Monaco,Monaco,1,EU
+1068,Mongolia,MNG,Ulaanbaatar,Mongolia,1565000,AS
+1146,Morocco,MA,Rabat,Morocco,446550,AF
+1190,Mozambique,MOC,Maputo,Maputo (munic.),801590,AF
+1056,Myanmar,MYA,Rangoon,Yangon,678500,AS
+1152,Namibia,NAM,Windhoek,Namibia,825418,AF
+1121,Nauru,NAU,Yaren,Nauru,21,OC
+1069,Nepal,NEP,Kathmandu,Nepal,140800,AS
+1024,Netherlands,NL,Amsterdam,Noord Holland,37330,EU
+1122,New Caledonia,NCA,Noumea,New Caledonia,19060,OC
+1123,New Zealand,NZ,Wellington,New Zealand,268680,OC
+1101,Nicaragua,NIC,Managua,Nicaragua,129494,NA
+1147,Niger,RN,Niamey,Niger,1267000,AF
+1157,Nigeria,WAN,Abuja,Nigeria,923770,AF
+1033,Norway,N,Oslo,Oslo,324220,EU
+1084,Oman,OM,Muscat,Oman,212460,AS
+1047,Pakistan,PK,Islamabad,Pakistan,803940,AS
+1124,Palau,PAL,Koror,Palau,458,OC
+1102,Panama,PA,Panama City,Panama,78200,NA
+1074,Papua New Guinea,PNG,Port Moresby,Papua New Guinea,461690,OC
+1134,Paraguay,PY,Asuncion,Paraguay,406750,SA
+1136,Peru,PE,Lima,Lima,1285220,SA
+1087,Philippines,RP,Manila,Philippines,300000,AS
+1019,Poland,PL,Warsaw,Warszwaskie,312683,EU
+1042,Portugal,P,Lisbon,Lisbon,92080,EU
+1088,Qatar,Q,Doha,Qatar,11000,AS
+1028,Romania,RO,Bucharest,Bucuresti,237500,EU
+1021,Russian Federation,R,Moscow,Moskva,17075200,EU
+1165,Rwanda,RWA,Kigali,Rwanda,26340,AF
+1112,Saint Kitts and Nevis,KN,Basseterre,Saint Kitts and Nevis,269,NA
+1113,Saint Lucia,WL,Castries,Saint Lucia,620,NA
+1114,Saint Vincent and the Grenadines,WV,Kingstown,Saint Vincent and the Grenadines,340,NA
+1129,Western Samoa,WS,Apia,Western Samoa,2860,OC
+1039,San Marino,RSM,San Marino,San Marino,60,EU
+1193,Sao Tome and Principe,STP,Sao Tome,Sao Tome and Principe,960,AF
+1078,Saudi Arabia,SA,Riyadh,Saudi Arabia,1960582,AS
+1183,Senegal,SN,Dakar,Dakar,196190,AF
+1003,Serbia,YU,Belgrade,Serbia and Montenegro,102350,EU
+1194,Seychelles,SY,Victoria,Seychelles,455,AF
+1185,Sierra Leone,WAL,Freetown,Sierra Leone,71740,AF
+1089,Singapore,SGP,Singapore,Singapore,632,AS
+1013,Slovakia (Slovak Republic),SK,Bratislava,Slovakia,48845,EU
+1014,Slovenia,SLO,Ljubljana,Slovenia,20256,EU
+1125,Solomon Islands,SLB,Honiara,Solomon Islands,28450,OC
+1180,Somalia,SP,Mogadishu,Somalia,637660,AF
+1160,South Africa,RSA,Pretoria,South Africa,1219912,AF
+1006,Spain,E,Madrid,Madrid,504750,EU
+1090,Sri Lanka,CL,Colombo,Sri Lanka,65610,AS
+1173,Sudan,SUD,Khartoum,al Khartum,2505810,AF
+1139,Suriname,SME,Paramaribo,Suriname,163270,SA
+1192,Swaziland,SD,Mbabane,Swaziland,17360,AF
+1034,Sweden,S,Stockholm,Stockholm,449964,EU
+1015,Switzerland,CH,Bern,BE,41290,EU
+1079,Syrian Arab Republic,SYR,Damascus,Syria,185180,AS
+1091,Taiwan,RC,Taipei,Taiwan,35980,AS
+1048,Tajikistan,TAD,Dushanbe,Dushanbe (munic.),143100,AS
+1166,Tanzania,EAT,Dar es Salaam,Daressalam,945090,AF
+1062,Thailand,THA,Bangkok,Thailand,514000,AS
+1158,Togo,RT,Lome,Togo,56790,AF
+1126,Tonga,TO,Nukualofa,Tonga,748,OC
+1115,Trinidad and Tobago,TT,Port-of-Spain,Trinidad and Tobago,5130,NA
+1148,Tunisia,TN,Tunis,Tunisia,163610,AF
+1029,Turkey,TR,Ankara,Ankara,780580,AS
+1049,Turkmenistan,TM,Ashgabat,Ahal,488100,AS
+1127,Tuvalu,TUV,Funafuti,Tuvalu,26,OC
+1186,Uganda,EAU,Kampala,Uganda,236040,AF
+1020,Ukraine,UA,Kiev,Kyyivska,603700,EU
+1085,United Arab Emirates,UAE,Abu Dhabi,United Arab Emirates,75581,AS
+1043,United Kingdom,GB,London,Greater London,244820,EU
+1099,United States of America,USA,Washington,Distr. Columbia,9372610,NA
+1135,Uruguay,ROU,Montevideo,Uruguay,176220,SA
+1050,Uzbekistan,UZB,Tashkent,Toshkent,447400,AS
+1128,Vanuatu,VU,Port-Vila,Vanuatu,14760,OC
+1140,Venezuela,YV,Caracas,Distrito Federal,912050,SA
+1064,Vietnam,VN,Hanoi,Vietnam,329560,AS
+1149,Western Sahara,WSA,El Alaiun,Western Sahara,266000,AF
+1086,Yemen,YE,Sanaa,Yemen,527970,AS
+1154,Zambia,Z,Lusaka,Lusaka,752610,AF
+1161,Zimbabwe,ZW,Harare,Zimbabwe,390580,AF
